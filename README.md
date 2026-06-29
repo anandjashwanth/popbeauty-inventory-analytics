@@ -24,7 +24,7 @@ The analysis set out to answer one question: *where is the money trapped, and wh
 - **22 analytical SQL queries** (joins, aggregations, ratio and date logic) diagnosing the imbalance across cost, expiry, fulfilment and reorder behaviour.
 - A multi-page **Power BI dashboard** translating the findings into a clear business narrative for decision-makers.
 
-📄 **[View the full SQL queries (PDF)](popbeauty_sql_queries.pdf)**
+📄 **[View the full SQL queries (PDF)](IB9HP0_Group_12_Code.pdf)**
 
 ## Key insights (all surfaced from SQL)
 
