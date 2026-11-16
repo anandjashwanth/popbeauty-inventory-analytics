@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install tools
-        run: pip install -r requirements.txt -r requirements-dev.txt
+                run: pip install -r requirements.txt -r requirements-dev.txt
       - name: Lint
         run: ruff check src tests
       - name: Build database with enforced keys and checks
