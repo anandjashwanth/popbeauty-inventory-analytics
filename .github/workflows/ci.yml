@@ -15,12 +15,14 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install tools
-        run: pip install -r requirements-dev.txt
+        run: pip install -r requirements.txt -r requirements-dev.txt
       - name: Lint
         run: ruff check src tests
       - name: Build database with enforced keys and checks
         run: python src/build_db.py
       - name: Run all 26 analysis queries
         run: python src/run_queries.py
+      - name: Run demand forecast backtest
+        run: python src/forecast.py
       - name: Run tests
         run: pytest -q
